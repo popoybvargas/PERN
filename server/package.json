@@ -1,0 +1,21 @@
+{
+  "name": "pern-stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Popoy Vargas <popoyvargas@me.com> (https://teamzv.rocks/)",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.5.1",
+    "zv-load.env": "^2.0.6",
+    "zv-utils": "^2.2.0"
+  }
+}
